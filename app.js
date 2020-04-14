@@ -6,7 +6,7 @@ const logger = require('morgan');
 const mongoose = require('mongoose')
 require('dotenv').config();
 
-const blogRouter = require('./routes/index');
+const blogRouter = require('./routes/blogRouter');
 
 const app = express();
 
